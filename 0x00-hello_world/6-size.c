@@ -2,7 +2,7 @@
 /**
  * main - Enrty point
  *
- * Description: A c program that prints the size of data type using prints function
+ * Description: A c program that prints the size of various data types
  *
  * Return: Always 0 (Success)
  */
