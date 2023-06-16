@@ -15,15 +15,17 @@ int main(void)
 
 	while (digit < 10)
 	{
+		putchar(digit + '0');
+
 		if (digit != 9)
 		{
-			putchar(digit + '0');
 			putchar(',');
 			putchar(' ');
-			digit++;
 		}
-		else
-			putchar(digit + '0');
+
+		digit++;
 	}
+
+	putchar('\n');
 	return (0);
 }
